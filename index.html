@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Layout test</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="./bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="css/style.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <div class="container shadows">
+
+    <div class="navbar navbar-fixed-top">
+      <div class="container shadows">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">LOGO</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Range</a></li>
+            <li><a href="#buy">Where to buy</a></li>
+            <li><a href="#warranty">Warranty</a></li>
+            <li><a href="#contact">Contact us</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+    <div class="container marge gray">
+
+      <div class="row body">
+        <div class="col-8 col-lg-8 col-md-8 col-sm-12 col-xs-12 product-image">
+          <img src="./img/voiture.jpg" class="img-responsive" alt="voiture" />
+        </div>
+
+        <div class="col-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 product-description">
+          <div class="inside">
+
+          </div>
+        </div>
+      </div>
+
+        <div class="row vignettes">
+
+          <div id="selection"><img src="./img/flecheGrise.png" class="fleche-selection"/></div>
+
+          <div id="item1" class="col-lg-3 col-md-3 col-sm-3 col-xs-3 product-selection debut">
+            <img src="./img/voiture.jpg" class="img-selection" alt="voiture" />
+          </div>
+
+          <div id="item2" class="col-lg-3 col-md-3 col-sm-3 col-xs-3 product-selection">
+            <img src="./img/maison.png" class="img-selection" alt="maison" />
+          </div>
+
+          <div id="item3" class="col-lg-3 col-md-3 col-sm-3 col-xs-3 product-selection">
+            <img src="./img/super-bowl.jpg" class="img-selection" alt="super-bowl" />
+          </div>
+
+          <div id="item4" class="col-lg-3 col-md-3 col-sm-3 col-xs-3 product-selection fin">
+            <img src="./img/meuble.jpg" class="img-selection" alt="meuble" />
+          </div>
+       </div>
+
+       <div class="bottom">
+
+         <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+              <div class="example"></div>
+            </div>
+            <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 example-description">
+              <h3>PAGE LAYOUT EXAMPLE</h3><br>
+              <p>
+                This page layout example demonstrates how to create a simple
+                but effective homepage design with nice large promotional images
+                inside a jQuery carousel, customisable mega menus and a simple,
+                straightfoward introductory message.
+                <br><br>
+                This page is cross-browser compatible and successfully checked
+                as XHTML 1.0 Strict using the W3C Markup Validation Service.
+                The HTML, CSS and jQuery code can be downloaded and used without
+                any guarantees.
+              </p>
+              <button type="button" id="button-range">View our range ></button>
+            </div>
+         </div>
+
+      </div>
+
+    </div><!-- /.container -->
+
+    <div class="container">
+      <footer>
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+            <a href="#contact">Contact us</a><br>
+            <a href="#buy">Where to buy</a>
+          </div>
+
+          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+            <a href="#warranty">Warranty</a><br>
+            <p style="font-size:12px;">
+              Present fermentum, libero nec veneatis commodo, felis nibh ornare
+              erat.
+            </p>
+          </div>
+
+          <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
+            <img src="./img/warranty.png"/>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+  </div>
+
+  <div id="description-item1" style="display:none;">
+    <p class="category">
+      Cars
+    </p>
+    <br>
+    <h2>Speed car</h2>
+    <p class="price">
+      $50.000
+    </p>
+    <br>
+    <p class="description-text">
+      Lorem ipsum dolor sit amet. consectetuer adipiscing elit. Donec odio.
+      Quisque volutpat mattis eros nullam.
+    </p>
+    <a href="#details" class="description">View Details</a>
+  </div>
+
+  <div id="description-item2" style="display:none;">
+    <p class="category">
+      Houses
+    </p>
+    <br>
+    <h2>Great House - Montreal</h2>
+    <p class="price">
+      $500.000
+    </p>
+    <br>
+    <p class="description-text">
+      Lorem ipsum dolor sit amet. consectetuer adipiscing elit. Donec odio.
+      Quisque volutpat mattis eros nullam.
+    </p>
+    <a href="#details" class="description">View Details</a>
+  </div>
+
+  <div id="description-item3" style="display:none;">
+    <p class="category">
+      Entertainment
+    </p>
+    <br>
+    <h2>Super-bowl ticket</h2>
+    <p class="price">
+      $2.000
+    </p>
+    <br>
+    <p class="description-text">
+      Lorem ipsum dolor sit amet. consectetuer adipiscing elit. Donec odio.
+      Quisque volutpat mattis eros nullam.
+    </p>
+    <a href="#details" class="description">View Details</a>
+  </div>
+
+  <div id="description-item4" style="display:none;">
+    <p class="category">
+      Furniture
+    </p>
+    <br>
+    <h2>TV furniture</h2>
+    <p class="price">
+      $80
+    </p>
+    <br>
+    <p class="description-text">
+      Lorem ipsum dolor sit amet. consectetuer adipiscing elit. Donec odio.
+      Quisque volutpat mattis eros nullam.
+    </p>
+    <a href="#details" class="description">View Details</a>
+  </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="./bootstrap/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="./bootstrap/js/ie10-viewport-bug-workaround.js"></script>
+
+    <script src="js/carousel.js"></script>
+  </body>
+</html>

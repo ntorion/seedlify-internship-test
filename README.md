@@ -2,4 +2,4 @@
 
 Page layout source code for Seedlify internship test.
 
-Here's a link for a live demonstration : http://nicolastorion.fr.nf/seedlify-internship-test/
+Here's a link for a live demonstration : http://annibetorion.free.fr/seedlify-internship-test/
